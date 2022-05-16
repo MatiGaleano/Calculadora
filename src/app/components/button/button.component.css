@@ -1,0 +1,33 @@
+.container-button {
+    height: 83px;
+    width: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background-color: #1b1b32;
+    color: #fff;
+    font-family: lato sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 4px;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.container-button:hover {
+    background-color: #6a01a7;
+}
+.container-button:active {
+    background-color: #1b1b32;
+    color: #fff;
+    transform: scale(0.9);
+}
+
+.operator {
+    background-color: #00471b;
+}
+.operator:hover {
+    background-color: #ff6600;
+}
