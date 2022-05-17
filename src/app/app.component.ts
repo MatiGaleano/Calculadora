@@ -16,11 +16,12 @@ export class AppComponent {
     if(valor === '='){
       console.log(this.entrada);
       this.entrada = evaluate(this.entrada);
-    } else if(valor == '0'){
-      this.entrada == '';
-  } else {
+    } else if(this.entrada === '0'){
+      this.entrada = valor;
+    } else {
       this.entrada += valor;
     }
+  
 }
 
   clear(){
